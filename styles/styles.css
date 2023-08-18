@@ -10,13 +10,17 @@ body {
 
 header {
     background-color: #f2f2f2;
-    padding: 20px;
+    margin: 0px;
     text-align: center;
 }
 
 header img {
-    max-width: 400px;
+    max-width: 300px;
     text-align: center;
+    border: 0px solid black;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 0px;
 }
 
 header h1 {
@@ -25,13 +29,26 @@ header h1 {
 
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 20px;
     border: 0px solid #ccc;
 }
 
 section h2 {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 28px;
 }
 
 footer {
@@ -39,7 +56,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0;
     right: 0;
